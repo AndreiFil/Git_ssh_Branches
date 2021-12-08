@@ -1,0 +1,21 @@
+1. ID
+2. Summary/Title
+3. Description
+4. Steps to reproduce
+5. Expected result
+6. Actual result
+7. Severity
+8. Priority
+9. Label
+10.Workaround
+11.Comments
+12.Attachments
+
+
+In addition to the standart bug report fields, depending on bug tracking system we can add
+
+13. Author ( of bug)
+14. Assigned to ( developer, who work with this part of product)
+15. Status ( Show current stage of working withe the bug ( New, assigned, re-open, verified etc.)
+16. Creation date ( date of creating bug report)
+17. Environment
