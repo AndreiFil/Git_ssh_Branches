@@ -1,0 +1,33 @@
+1) mkdir  Git_ssh_Branches 							//На локальном репозитории сделать ветки для:					
+3) git branch Jmeter								//Jmeter
+2) git branch Postman								//Postman															
+4) git branch CheckLists							//CheckLists
+5) git branch Bug_Reports							//Bug_Reports
+6) git branch SQL									//SQL
+7) git branch Charles								//Charles
+8) git branch Mobile_testing						//Mobile_testing	
+
+9) git push origin --all							//Синхронизируем локальный репозиторий с внешним
+
+10) git checkout Bug_Reports						//Переходим в ветку Bug_Reports
+11) touch bug_report_structure.txt 					//Создаём текстовый файл bug_report_structure.txt
+12) git add .										//Отслеживаем изменения
+13) git commit -m "create bug_report_structure.txt"	//Делаем комит
+14) git push										//Синхронизируем с удалённым репозиторием
+15) git checkout main								//Заходим в ветку main
+16) git merge Bug_Reports 							//Соединяем главную ветку с веткой Bug_Reports
+17) git add .                            			//Отслеживаем изменения
+18) git commit -m "merge Bug_Reports into main" 	//Делаем комит
+19) git push										//Синхронизируем с удалённым репозиторием
+20) git checkout CheckLists 						//Переходим в ветку
+21) touch checkList.txt								//Создаём текстовый файл checkList.txt
+22) git add .										//Отслеживаем изменения
+23) git commit -m "create checkList.txt"			//Делаем комит
+24) git push										//Синхронизируем с удалённым репозиторием в ветке CheckLists
+
+25) Жмём Compare & pull request						//Присоединяем ветку CheckLists к основной ветке Main
+26) Заполняем Title, comment
+27) Жмём Create pull request
+
+28) git fetch										//Отслеживаем изменения внешнего репозитория с локальным
+29) git pull										//Синхронизируем удалённый репозиторий с локальным
